@@ -23,7 +23,7 @@ export default function Food() {
                                     <p className="text-sm text-gray-500"><EnvironmentOutlined /> {e.addres} </p>
                                 </div>
                             </div>
-                            <p className="text-sm text-gray-500 mt-3">GPT-4o (8K) • Chỉnh sửa 09-26 16:05</p>
+                            <p className="text-sm text-gray-500 mt-3">{e.description}</p>
                         </div>
                     </Link>
                 </Col>
